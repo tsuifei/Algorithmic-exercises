@@ -1,0 +1,6 @@
+.DS_STORE
+*.log
+.DS_Store
+*.swp
+.vscode
+/webCamp/nonFinish/
