@@ -5,3 +5,6 @@
 *.swp
 q.vscode
 /webCamp/nonFinish/*
+
+node_modules/
+.gitignore
