@@ -1,23 +1,23 @@
 {
-    "name": "Algorithmic-exercises",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "jest --watchAll --runTestsByPath ./*.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/tsuifei/Algorithmic-exercises.git"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/tsuifei/Algorithmic-exercises/issues"
-    },
-    "homepage": "https://github.com/tsuifei/Algorithmic-exercises#readme",
-    "devDependencies": {
-        "jest": "^24.9.0"
-    }
+  "name": "Algorithmic-exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --runTestsByPath ＝./jest_test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsuifei/Algorithmic-exercises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tsuifei/Algorithmic-exercises/issues"
+  },
+  "homepage": "https://github.com/tsuifei/Algorithmic-exercises#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
 }
