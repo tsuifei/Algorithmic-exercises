@@ -1,5 +1,6 @@
 /*
 找出陣列中最小的數字
+
 */
 
 function findMinimumNumberInArray(arr) {
