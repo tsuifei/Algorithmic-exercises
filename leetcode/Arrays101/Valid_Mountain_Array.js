@@ -35,7 +35,7 @@ const arr3 = [0,3,2,1,3]
  * @return {boolean}
  */
  var validMountainArray = function(arr) {
-   if(arr.length<3) return false; 
+  if(arr.length<3) return false; 
   // 記錄升和降
   let rise = false
   let drop = false

@@ -1,5 +1,8 @@
 /*
 https://leetcode.com/explore/learn/card/fun-with-arrays/511/in-place-operations/3157/
+使用雙指針，來做比對，並用一個 temp 變數以 swap 的方式互換值
+fast 指針來做紀錄遍歷；slow 指針紀錄需要替換的值。
+當 fast 遇到不是 0 的值，就先把 fast 當下的值丟給 temp ，然後再把 slow的 0 丟給 fast 的位置，temp 的值在丟到原本 slow 的位置上，完成之後 slow 往前ㄧ格。
 */
 
 /**
