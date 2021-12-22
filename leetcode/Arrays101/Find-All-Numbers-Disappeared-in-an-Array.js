@@ -4,19 +4,10 @@ Given an array nums of n integers where nums[i] is in the range [1, n], return a
 
 給定一個包含 n 個整數的數組 nums，其中 nums[i] 在範圍 [1, n] 內，返回一個包含範圍 [1, n] 內所有未出現在 nums 中的整數的數組。
 
-Example :
-Input: nums = [4,3,2,7,8,2,3,1]
-Output: [5,6]
-
-Input: nums = [1,1]
-Output: [2]
-
-
-
 */
 
-// const nums = [4,3,2,7,8,2,3,1];
-const nums = [1,1];
+// const nums = [4,3,2,7,8,2,3,1]; // Output: [5,6]
+const nums = [1,1]; // Output: [2]
 
 /**
  * @param {number[]} nums
@@ -44,3 +35,4 @@ const nums = [1,1];
 
 let result = findDisappearedNumbers(nums)
 console.log(result);
+

@@ -25,20 +25,18 @@ Explanation: The square root of 8 is 2.82842..., and since the decimal part is t
  * @return {number}
  */
  var mySqrt = function(x) {
-    
-  if (x === 0) {
-    return 0;
-  } else if (x < 4) {
-    return 1;
-  }
+  // binary search from 1 to x
+  if (x <= 1) {
+    return x;
+  } 
+  
   // 1,2,3,4,5,6,7,8
   // 1,2,3,4,5
 
   let left = 1;
-  right = x / 2 + 1;
-  console.log('left:'+ left);
-  console.log('right:'+ right);
-  while (left < right) {
+  let right = x;
+
+  while (left <= right) {
     let mid = left + Math.floor((right - left)/2); 
     console.log('mid:'+ mid);
 
