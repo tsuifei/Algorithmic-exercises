@@ -29,9 +29,6 @@ Explanation: The square root of 8 is 2.82842..., and since the decimal part is t
   if (x <= 1) {
     return x;
   } 
-  
-  // 1,2,3,4,5,6,7,8
-  // 1,2,3,4,5
 
   let left = 1;
   let right = x;
@@ -40,15 +37,15 @@ Explanation: The square root of 8 is 2.82842..., and since the decimal part is t
     let mid = left + Math.floor((right - left)/2); 
     console.log('mid:'+ mid);
 
-    if(mid * mid === x ) {
+    if(mid > x / mid) {
+      right = mid-1;
+    } else if ((mid +1) > x/(mid+1)) { 
       return mid
-    } else if (mid * mid > x) { 
-      right = mid + 1 ;  
     } else {
       left = mid+1; 
     }
   }
-  return left;
+  return 0;
 };
 
 console.log(mySqrt(8));
